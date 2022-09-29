@@ -19,7 +19,7 @@
 <body>
     <div class="center">
     <div class="flex-container">
-        <div><img src="..\pic\logo.png" alt="logo"></div>
+        <div><img src="static/pic/logo.png" alt="logo"></div>
         <!-- <div><h2>Phoenix Airline</h2></div> -->
       </div>
 
@@ -28,15 +28,15 @@
 
     <form action="AddPassenger" method="post">
         <div class="txt_field">
-            <input type="email" required>
+            <input type="email" name="email" required>
             <label>Email address</label>
         </div>
         <div class="txt_field">
-            <input type="number" required>
+            <input type="number" name="id" required>
             <label>Admin ID</label>
         </div>
         <div class="txt_field">
-            <input type="password" required>
+            <input type="password" name="password" required>
             <label>Password</label>
         </div>
         

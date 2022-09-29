@@ -6,12 +6,17 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import login.airline.database.LoginDao;
+
 import java.io.IOException;
-import java.io.PrintWriter;
+import java.sql.SQLException;
+
+import com.airline.bean.LoginBean;
 
 /**
  * Servlet implementation class AddPassenger
  */
+@WebServlet("/AddPassenger")
 public class AddPassenger extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -28,19 +33,49 @@ public class AddPassenger extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		RequestDispatcher view = request.getRequestDispatcher("WEB-INF/views/add_passenger.jsp"); 
+		RequestDispatcher view = request.getRequestDispatcher("WEB-INF/index.jsp"); 
 		
 		view.forward(request, response);
 		
-		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
+		
+		LoginDao loginDao = new LoginDao();
+		
+		String email = request.getParameter("email");
+		String password = request.getParameter("password");
+		String id = request.getParameter("id");
+		
+		LoginBean loginBean = new LoginBean();
+		
+		loginBean.setEmail(email);
+		loginBean.setId(id);
+		loginBean.setPassword(password);
+		
+		try {
+			if (loginDao.validate(loginBean))
+			{
+				response.sendRedirect("loginSuccess.jsp");
+				
+			}
+			else 
+			{
+				//HttpSession session = request.getSession();
+				doGet(request, response);
+				
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 
 }
