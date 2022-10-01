@@ -46,12 +46,11 @@ public class LoginDao {
 			loadDriver(dbDriver);
 			Connection con = getConnection();
 			
-			String sql = "select * from login where email = ? and id=? and password =?";
+			String sql = "select * from user where email = ? and password =?";
 			PreparedStatement ps;
 			ps = con.prepareStatement(sql);
 			ps.setString(1, loginBean.getEmail());
-			ps.setString(2, loginBean.getId());
-			ps.setString(3, loginBean.getPassword());
+			ps.setString(2, loginBean.getPassword());
 			ResultSet rs = ps.executeQuery();
 			status = rs.next();
 			return status;
