@@ -23,6 +23,15 @@
 <script src="https://cdn03.jotfor.ms/js/vendor/jquery-1.8.0.min.js?v=3.3.36189" type="text/javascript"></script>
 <script defer src="https://cdn01.jotfor.ms/js/vendor/maskedinput.min.js?v=3.3.36189" type="text/javascript"></script>
 <script defer src="https://cdn02.jotfor.ms/js/vendor/jquery.maskedinput.min.js?v=3.3.36189" type="text/javascript"></script>
+
+<!--bootsrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="stylesheet" href="../styles/nav.css">
+
+<link rel="stylesheet" href="../styles/footer.css">
+<Link rel="stylesheet" href="../styles/booking_basic.css">
+
+
 <script type="text/javascript">	JotForm.newDefaultTheme = true;
 	JotForm.extendsNewTheme = false;
 	JotForm.singleProduct = false;
@@ -67,6 +76,69 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"clickTo","qid":"1","text":"Flight R
 </script>
 </head>
 <body>
+
+   <!--navigation-->
+   <div class="container-fluid" id="nav-placeholder">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonenix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/742d2d79da.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="..\styles\nav.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="navbar">
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="#"><img src="..\img\logo.png" alt="" id="logo_nav"></a>
+
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="navbar-collapse justify-content-sm-center collapse" id="navbar">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Flight_Reservation_Form.html" >My Booking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">About Us</a>
+            </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <form class="d-flex" role="search">
+          <button class="btn" type="submit"><i class="fa-solid fa-circle-user" id="user_si"></i></button>
+        </form>
+
+        
+      </div>
+    </nav>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+
+
+
+            
+<div class="container-fluid placeholder_booking">
+
+
 <form class="jotform-form" action="https://submit.jotform.com/submit/222731032025440/" method="post" name="form_222731032025440" id="222731032025440" accept-charset="utf-8" autocomplete="on">
   <input type="hidden" name="formID" value="222731032025440" />
   <input type="hidden" id="JWTContainer" value="" />
@@ -1312,8 +1384,66 @@ for (var i = 0; i < all_spc.length; i++)
   all_spc[i].value = "222731032025440-222731032025440";
 }
   </script>
-  <div class="formFooter-heightMask">
+
+  </form>
   </div>
-</form></body>
+ <!--footer-->
+<div class="container-fluid" id="foot-placeholder">
+  <div class="container-fluid">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+      <div class="col mb-3">
+        <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+            <img src="..\img\logo.png" alt="" id="logo_foot">
+        </a>
+        <p class="text-muted">© 2022</p>
+      </div>
+  
+      <div class="col mb-3">
+  
+      </div>
+  
+      <div class="col mb-3">
+        <h5 class="foot_Sub">Support</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted ">Help center</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact us</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy policy</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms of service</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trust and safty</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Accessibility</a></li>
+        </ul>
+      </div>
+  
+      <div class="col mb-3">
+        <h5 class="foot_Sub">About</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About GooseFlight</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">How it works</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Forum</a></li>
+        </ul>
+      </div>
+  
+      <div class="col mb-3">
+        <h5 class="foot_Sub">Get the app</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tripma for android</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tripma for iOS</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mobile site</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><img src="../img/appStore.png" alt="" id="app_ios"></a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><img src="../img/google.png" alt="" id="app_google"></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+</div>
+
+
+</body>
 </html>
 <script type="text/javascript">JotForm.ownerView=true;</script>

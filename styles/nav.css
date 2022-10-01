@@ -22,7 +22,7 @@
 
 body{
     font-family:"Poppins" , sans-serif;
-    padding-bottom: 20px;
+   
 }
 nav{
     background-color: hsla(0, 0%, 100%, 0.8);
@@ -80,18 +80,22 @@ nav{
 }
 
 #user_si{
-    font-weight: bold;
     font-size: 1.5rem;
+    font-weight: bold;
+    transition: 0.3s;
 }
+
+#user_si:hover{
+    color:var(--hoverColor) !important;
+    transform: scale(1.05) !important;
+}
+
 
 
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
+}
 
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
