@@ -59,7 +59,7 @@ public class AddPassenger extends HttpServlet {
 		try {
 			if (loginDao.validate(loginBean))
 			{
-				response.sendRedirect("loginSuccess.jsp");
+				response.sendRedirect("main.jsp");
 				
 			}
 			else 
