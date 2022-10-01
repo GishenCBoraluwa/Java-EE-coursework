@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pheonix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://kit.fontawesome.com/742d2d79da.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="..\styles\index_style.css">
+
+
+   
+
+    <script src="..\js files\index.js"></script>
+
+</head>
+<body>
+   
+    <!--navigation-->
+    <div class="container-fluid" id="nav-placeholder"></div>
+
+    <!--main body-->
+    <div class="container-fluid" id="part">
+        <div class="row">
+            <div class="col">
+                <div class="container" id="place1">
+                    <h1>Discover our paradise world<br>Travel Anywhere Now!</h1>
+                </div>
+                <div class="container" id="place">
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+                            <form action="" method="get">
+                                <input type="radio" class="form-check-input radio_btn_trip" name="trip" id="one_trip">
+                                <label class="form-check-label" for="one_trip">One way</label>
+                                <input type="radio" class="form-check-input radio_btn_trip" name="trip" id="two_trip">
+                                <label class="form-check-label" for="two_trip">Round way trip</label>
+                                <input type="radio" class="form-check-input radio_btn_trip" name="trip" id="spec_trip">
+                                <label class="form-check-label" for="spec_trip">Special Round way trip</label>
+                                <hr>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-2 ">
+                            <form action="" method="get">
+                                <select class="form-select" aria-label="">
+                                    <option selected>colombo</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                                <p class="lbl_text"><i class="fa-solid fa-plane-departure"></i>  Flight from?</p>
+                            </form>
+                        </div>
+                        <div class="col-2">
+                            <form action="" method="get">
+                                <select class="form-select" aria-label="">
+                                    <option selected>United Kingdom</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                                <p class="lbl_text"><i class="fa-solid fa-plane-arrival"></i> Where to?</p>
+                            </form>
+                        </div>
+                        <div class="col-2 ">
+                            <form action="" method="get">
+                                <input type="date" id="" name="D_date" class="date">
+                            </form>
+                            <p class="lbl_text"><i class="fa-solid fa-calendar-days"></i> Depart</p>
+                        </div>
+                        <div class="col-2 ">
+                            <form action="" method="get">
+                                <input type="date" id="" name="A_date" class="date">
+                            </form>
+                            <p class="lbl_text"><i class="fa-solid fa-calendar-days"></i> Return</p>
+                        </div>
+                        <div class="col-2">
+                            <form action="" method="get">
+                                <select class="form-select" aria-label="">
+                                    <option selected>Economy</option>
+                                    <option value="1">Business</option>
+                                    <option value="2">Platinum</option>
+                                </select>
+                            </form>
+                            <p class="lbl_text">Passenger class</p>
+                        </div>
+                        <div class="col-2 text-center">
+                            <form action="" method="get">
+                                <button type="submit" class="btn_search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---->
+
+    <!--footer-->
+    <div class="container-fluid" id="foot-placeholder"></div>
+</body>
+</html>
