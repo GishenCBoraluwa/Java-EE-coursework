@@ -37,7 +37,7 @@
         </div>
         
         <div class="signup_link">
-            Dont have account? <a href="../signup.jsp">Signup</a> 
+            Dont have account? <a href="signup.jsp">Signup</a> 
         </div>
         <div class="radio_btn">
             <input type="radio" name="grade" id="grade1">

@@ -19,7 +19,7 @@
         <!-- <div><h2>Phoenix Airline</h2></div> -->
     </div>    
 
-    <h1>Sign in</h1>
+    <h1>SignUp</h1>
     <form action="Register" method="post">
         <div class="txt_field">
             <input type="email" name="email" required>
@@ -31,7 +31,7 @@
         </div>
         <input type="submit" value="Get started">
         <div class="signup_link">
-            Already have an account? <a href="WEB-INF/index.jsp">Login</a>
+            Already have an account? <a href="/Login/AddPassenger">Login</a>
         </div>
     </form>
 
