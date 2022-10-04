@@ -16,7 +16,7 @@ public class RegisterDao {
     private String dbPassword = "lahirurajith123";
     private String dbDriver = "com.mysql.cj.jdbc.Driver";
     
-    public void loadDriver(String dbDriver)
+    protected void loadDriver(String dbDriver)
     {
         try {
             Class.forName(dbDriver);
@@ -26,7 +26,7 @@ public class RegisterDao {
         }
     }
     
-    public Connection getConnection()
+    protected Connection getConnection()
     {
         Connection con = null;
         try {

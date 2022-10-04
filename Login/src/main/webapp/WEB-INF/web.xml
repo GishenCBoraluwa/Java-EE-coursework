@@ -15,12 +15,12 @@
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>UserServlet</display-name>
-    <servlet-name>UserServlet</servlet-name>
-    <servlet-class>com.airline.UserServlet</servlet-class>
+    <display-name>FlightServlet</display-name>
+    <servlet-name>FlightServlet</servlet-name>
+    <servlet-class>com.airline.FlightServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>UserServlet</servlet-name>
-    <url-pattern>/UserServlet</url-pattern>
+    <servlet-name>FlightServlet</servlet-name>
+    <url-pattern>/FlightServlet</url-pattern>
   </servlet-mapping>
 </web-app>

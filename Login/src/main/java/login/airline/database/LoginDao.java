@@ -15,7 +15,7 @@ public class LoginDao {
 	private String dbPassword = "lahirurajith123";
 	private String dbDriver = "com.mysql.cj.jdbc.Driver";
 	
-	public void loadDriver(String dbDriver)
+	protected void loadDriver(String dbDriver)
 	{
 		try {
 			Class.forName(dbDriver);
@@ -25,7 +25,7 @@ public class LoginDao {
 		}
 	}
 	
-	public Connection getConnection() throws SQLException
+	protected Connection getConnection() throws SQLException
 	{
 
 		try {
