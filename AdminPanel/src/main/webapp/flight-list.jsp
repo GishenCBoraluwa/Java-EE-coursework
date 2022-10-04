@@ -8,6 +8,7 @@
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 	crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
 
@@ -35,7 +36,7 @@
 			<hr>
 			<div class="container text-left">
 
-				<a href="<%=request.getContextPath()%>/new" class="btn btn-success">Add
+				<a href="<%=request.getContextPath()%>/new" class="btn btn-success btn-lg"><i class="fa-sharp fa-solid fa-plane"></i>  Add
 					New Flight</a>
 			</div>
 			<br>
@@ -60,8 +61,8 @@
 							<td><c:out value="${flight.date}" /></td>
 							<td><c:out value="${flight.time}" /></td>
 							<td><a href="edit?id=<c:out value='${flight.id}' />">Edit</a>
-								&nbsp;&nbsp;&nbsp;&nbsp; <a
-								href="delete?id=<c:out value='${flight.id}' />">Delete</a></td>
+								&nbsp;&nbsp;&nbsp;&nbsp; 
+								<a href="delete?id=<c:out value='${flight.id}' />">Delete</a></td>
 						</tr>
 					</c:forEach>
 		

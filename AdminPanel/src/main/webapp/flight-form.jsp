@@ -8,12 +8,13 @@
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 	crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
 
 	<header>
 		<nav class="navbar navbar-expand-md navbar-dark"
-			style="background-color: blue">
+			style="background-color: #8E1D4BE8">
 			<div>
 				<a href="https://www.xadmin.net" class="navbar-brand"> Flight Management Application </a>
 			</div>
@@ -51,30 +52,31 @@
 				</c:if>
 
 				<fieldset class="form-group">
-					<label>Flight Name</label> <input type="text"
+					<label>Start</label> <input type="text"
 						value="<c:out value='${flight.start}' />" class="form-control"
 						name="name" required="required">
 				</fieldset>
 
 				<fieldset class="form-group">
-					<label>Flight Email</label> <input type="text"
+					<label>Finish</label> <input type="text"
 						value="<c:out value='${flight.finish}' />" class="form-control"
 						name="email">
 				</fieldset>
 
 				<fieldset class="form-group">
-					<label>Flight Country</label> <input type="text"
+					<label>Date</label> <input type="date"
 						value="<c:out value='${flight.date}' />" class="form-control"
 						name="country">
 				</fieldset>
 				
 				<fieldset class="form-group">
-					<label>Flight Country</label> <input type="text"
+					<label>Time</label> <input type="time"
 						value="<c:out value='${flight.time}' />" class="form-control"
 						name="country">
 				</fieldset>
 
-				<button type="submit" class="btn btn-success">Save</button>
+				<button type="submit" class="btn btn-success btn-lg"><i class="fas fa-database"></i>  Save</button>
+				</form>
 				</form>
 			</div>
 		</div>
