@@ -63,3 +63,7 @@ Phoenix Airline PVT is an airline with a small online flight booking system. Oth
 * Can monitor user activity
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<p align="center">
+<img src="https://github.com/Rajithlahiru/Java-EE-coursework/blob/main/Readme%20material/team.gif?raw=true" align-items:center>
+</p>
