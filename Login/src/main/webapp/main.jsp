@@ -23,8 +23,7 @@
    
     <!--navigation-->
   
-    
-      <nav class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="navbar">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="navbar">
       <div class="container-fluid">
 
         <a class="navbar-brand" href="#"><img src="static/img/logo.png" alt="" id="logo_nav"></a>
@@ -33,25 +32,27 @@
           <span class="navbar-toggler-icon"></span>
         </button>
   
-        <div class="navbar-collapse justify-content-sm-center collapse" id="navbar" style="">
+        <div class="navbar-collapse justify-content-sm-center collapse" id="navbar">
           <ul class="navbar-nav ">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link active" href="main.jsp">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Schedule</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">My Booking</a>
+              <a class="nav-link " href="myBooking.jsp">My Booking</a>
             </li>
             <li class="nav-item">
               <a class="nav-link " href="#">About Us</a>
             </li>
               </ul>
+            </li>
+          </ul>
         </div>
 
         <form class="d-flex" role="search">
-          <button class="btn btn-outline-none user_btn" type="submit"><i class="fa-solid fa-circle-user" id="user_si"></i></button>
+          <button class="btn" type="submit"><i class="fa-solid fa-circle-user" id="user_si"></i></button>
         </form>
 
         
