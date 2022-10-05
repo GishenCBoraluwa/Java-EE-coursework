@@ -16,7 +16,7 @@
 		<nav class="navbar navbar-expand-md navbar-dark"
 			style="background-color: #8E1D4BE8">
 			<div>
-				<a href="https://www.xadmin.net" class="navbar-brand"> Flight Management Application </a>
+				<a href="https://www.xadmin.net" class="navbar-brand"> Phoenix Airline Dashboard </a>
 			</div>
 
 			<ul class="navbar-nav">

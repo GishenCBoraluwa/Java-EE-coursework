@@ -13,6 +13,7 @@
     <script src="https://kit.fontawesome.com/742d2d79da.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="static/css/nav.css">
 	<link rel="stylesheet" href="static/css/footer.css">
+	<link rel="shortcut icon" href="static/img/logo.png">
 
    
 
