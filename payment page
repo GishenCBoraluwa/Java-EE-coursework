@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div>
+  <link href="./payment.css" rel="stylesheet" />
+  <div class="payment-container">
+    <div class="payment-container1"><div class="payment-icon-group"></div></div>
+    <img
+      alt="image"
+      src="/playground_assets/3669425_land_flight_ic_icon-200h.png"
+      class="payment-image"
+    />
+    <textarea
+      placeholder="placeholder"
+      class="textarea payment-textarea"
+    ></textarea>
+    <textarea
+      placeholder="placeholder"
+      class="textarea payment-textarea1"
+    ></textarea>
+    <input
+      type="text"
+      placeholder="placeholder"
+      class="input payment-textinput"
+    />
+    <input
+      type="text"
+      placeholder="placeholder"
+      class="input payment-textinput1"
+    />
+    <input
+      type="text"
+      placeholder="placeholder"
+      class="input payment-textinput2"
+    />
+    <span class="payment-text">0000-0000-0000-0000</span>
+    <input
+      type="text"
+      placeholder="placeholder"
+      class="input payment-textinput3"
+    />
+    <input
+      type="text"
+      placeholder="placeholder"
+      class="input payment-textinput4"
+    />
+    <span class="payment-text01">Billing Address </span>
+    <span class="payment-text02">Credit Cart Info</span>
+    <span class="payment-text03">FULL NAME</span>
+    <span class="payment-text04">NAME OF CARD</span>
+    <span class="payment-text05">CARD NUMBER</span>
+    <span class="payment-text06">ccv </span>
+    <span class="payment-text07">Exr Month</span>
+    <span class="payment-text08">Exr Year</span>
+    <span class="payment-text09">Address 1* </span>
+    <span class="payment-text10">Address 2* </span>
+    <span class="payment-text11">
+      <span>City</span>
+      <br />
+    </span>
+    <footer class="payment-footer">
+      <div class="payment-separator"></div>
+    </footer>
+    <footer class="payment-footer1">
+      <div class="payment-separator1"></div>
+    </footer>
+    <header data-role="Header" class="payment-header">
+      <img
+        alt="image"
+        src="/playground_assets/symbol-flying-aircraft-vector-28708378-removebg-preview-200w.png"
+        class="payment-image1"
+      />
+      <span class="payment-text14">Phoenix Airline</span>
+      <div class="payment-nav">
+        <nav class="navigation-links6-nav navigation-links6-root-class-name20">
+          <span class="navigation-links6-text"><span>Home</span></span>
+          <span class="navigation-links6-text1"><span>| Schedule</span></span>
+          <span class="navigation-links6-text2"><span>| My Booking</span></span>
+          <span class="navigation-links6-text3"><span>| About Us</span></span>
+        </nav>
+      </div>
+      <div class="payment-btn-group">
+        <button class="payment-login button">Login</button>
+        <button class="button payment-register">Register</button>
+      </div>
+    </header>
+    <span class="payment-text15">Payment Information</span>
+    <span class="payment-text16">
+      choose a payment option below and fill out the appropriate information
+    </span>
+    <select class="payment-select">
+      <option value="Option 1">city</option>
+      <option value="Option 2">Colombo</option>
+      <option value="option 4">Galle</option>
+      <option value="Option 3">Kegalle</option>
+      <option value="Option 5">Matale</option>
+      <option value="Option 6">State5</option>
+    </select>
+    <select class="payment-select1">
+      <option value="Option 1">State</option>
+      <option value="Option 2">State1</option>
+      <option value="Option 3">State2</option>
+      <option value="option 4">State3</option>
+      <option value="Option 5">State4</option>
+      <option value="Option 6">Badulla</option>
+    </select>
+    <span class="payment-text17">
+      <span class="payment-text18">City</span>
+      <br />
+    </span>
+    <span class="payment-text20">
+      <span>ZIP Code</span>
+      <br />
+    </span>
+    <select class="payment-select2">
+      <option value="Option 1">month</option>
+      <option value="Option 2">january</option>
+      <option value="Option 3">2023</option>
+    </select>
+    <select class="payment-select3">
+      <option value="Option 1">Year</option>
+      <option value="Option 2">2022</option>
+      <option value="Option 3">Option 3</option>
+    </select>
+    <button class="button payment-button">   PAY  NOW </button>
+    <button class="button payment-button1">       BACK</button>
+    <span class="payment-text23">May be you want to go back?</span>
+    <div data-thq="thq-dropdown" class="payment-thq-dropdown list-item">
+      <ul data-thq="thq-dropdown-list" class="payment-dropdown-list">
+        <li data-thq="thq-dropdown" class="payment-dropdown list-item">
+          <div data-thq="thq-dropdown-toggle" class="payment-dropdown-toggle">
+            <span class="payment-text24">Sub-menu Item</span>
+          </div>
+        </li>
+        <li data-thq="thq-dropdown" class="payment-dropdown1 list-item">
+          <div data-thq="thq-dropdown-toggle" class="payment-dropdown-toggle1">
+            <span class="payment-text25">Sub-menu Item</span>
+          </div>
+        </li>
+        <li data-thq="thq-dropdown" class="payment-dropdown2 list-item">
+          <div data-thq="thq-dropdown-toggle" class="payment-dropdown-toggle2">
+            <span class="payment-text26">Sub-menu Item</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <img
+      alt="image"
+      src="/playground_assets/4829870_arrow_back_left_icon-200h.png"
+      class="payment-image2"
+    />
+  </div>
+</div>
+</body>
+</html>
