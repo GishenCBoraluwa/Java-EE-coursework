@@ -12,6 +12,10 @@ Phoenix Airline PVT is an airline with a small online flight booking system. Oth
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<p align="center">
+<img src="https://github.com/Rajithlahiru/Java-EE-coursework/blob/main/Readme%20material/Banner.png?raw=true" align-items:center>
+</p>
+
 ### Built With
 * JAVA
 * JSP
@@ -23,7 +27,6 @@ Phoenix Airline PVT is an airline with a small online flight booking system. Oth
 <p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="50" height="50"/> </a> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="50" height="50"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="50"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="50" height="50"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="50" height="50"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="50" height="50"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="50" height="50"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="50" height="50"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="50" height="50"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="50" height="50"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="50" height="50"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="50" height="50"/> </a> </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 ## PROJECT REQUIREMENTS
 
@@ -64,6 +67,26 @@ Phoenix Airline PVT is an airline with a small online flight booking system. Oth
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Roadmap
+- [x] Setting Up the repo for the group
+- [x] Resource Gathering
+- [x] Designing the wireframe
+- [x] Front page development
+- [x] Sub page develpment
+- [x] Back end development
+- [x] Troubleshooting
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 <p align="center">
 <img src="https://github.com/Rajithlahiru/Java-EE-coursework/blob/main/Readme%20material/team.gif?raw=true" align-items:center>
 </p>
+
+## Contact
+Himesha Pathirana - https://github.com/htpathirana  
+Ruwanthi weerakoon - https://github.com/rvweerakoon12   
+Pavan edirisinghe  - https://github.com/PavanEdirisingha2000  
+Gishen Boraluwa -  https://github.com/GishenCBoraluwa    
+Rajith Lahiru - https://github.com/Rajithlahiru     
+
+Project Link: [https://github.com/Rajithlahiru/Java-EE-coursework](https://github.com/Rajithlahiru/Java-EE-coursework)
