@@ -12,6 +12,8 @@ import java.util.List;
 
 import org.apache.catalina.User;
 
+import com.admin.bean.Flight;
+
 import adminpanel.admin.database.UserDao;
 
 @WebServlet("/")
@@ -59,11 +61,11 @@ public class UserServlet extends HttpServlet {
 	}
 
 	private void listUser(HttpServletRequest request, HttpServletResponse response)
-			throws SQLException, IOException, ServletException {
-		List<User> listUser = userDao.selectAllUsers();
-		request.setAttribute("listUser", listUser);
-		RequestDispatcher dispatcher = request.getRequestDispatcher("user-list.jsp");
-		dispatcher.forward(request, response);
+            throws SQLException, IOException, ServletException {
+        List<Flight> listUser = userDao.selectAllUsers();
+        request.setAttribute("listUser", listUser);
+        RequestDispatcher dispatcher = request.getRequestDispatcher("user-list.jsp");
+        dispatcher.forward(request, response);
 	}
 
 	private void showNewForm(HttpServletRequest request, HttpServletResponse response)
@@ -84,11 +86,10 @@ public class UserServlet extends HttpServlet {
 
 	private void insertUser(HttpServletRequest request, HttpServletResponse response) 
 			throws SQLException, IOException {
-		String name = request.getParameter("name");
 		String email = request.getParameter("email");
-		String country = request.getParameter("country");
-		User newUser = new User(name, email, country);
-		userDAO.insertUser(newUser);
+		String password = request.getParameter("password");
+		User newUser = new User(email, password);
+		userDao.insertUser(newUser);
 		response.sendRedirect("list");
 	}
 
@@ -100,14 +101,14 @@ public class UserServlet extends HttpServlet {
 		String country = request.getParameter("country");
 
 		User book = new User(id, name, email, country);
-		userDAO.updateUser(book);
+		userDao.updateUser(book);
 		response.sendRedirect("list");
 	}
 
 	private void deleteUser(HttpServletRequest request, HttpServletResponse response) 
 			throws SQLException, IOException {
 		int id = Integer.parseInt(request.getParameter("id"));
-		userDAO.deleteUser(id);
+		userDao.deleteUser(id);
 		response.sendRedirect("list");
 
 	}
