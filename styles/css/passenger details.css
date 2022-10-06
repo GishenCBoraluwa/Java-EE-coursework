@@ -19,7 +19,6 @@
     color: #7d1010;
     margin-left: var(--dl-space-space-twounits);
   }
-  
   @media(max-width: 767px) {
     .navigation-links6-nav {
       align-items: flex-start;
